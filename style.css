@@ -13,7 +13,8 @@ width:100vw;
 
 .heading{
     width:100%;
-    height:150px;
+    height:110px;
+    border-bottom: 1px solid grey;
 
 
 }
@@ -30,4 +31,173 @@ width:100vw;
     margin: 5px;
     color:white;
 }
+.lowerheading{
+    display: flex;
+    justify-content: space-between ;
+    margin: 5px;
+    align-items: center;
+}
+.msgg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+    /* margin: 5px; */
+}
+.options{
+    margin: 7px;
+    align-items: center;
+
+}
+
+#quote{
+    background-color: transparent;
+    align-items: center;
+    color:#ff4800;                                           
+    border-radius: 10px;
+    border:2px solid #ff4800;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+#quote:hover{
+    background-color: #ff4800;
+    align-items: center;
+    color:#fff;                                           
+    border-radius: 10px;
+    border:2px solid #ff4800;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.promo{
+
+}
+
+.promo-area{
+    height: 400px;
+    background:rgba(0, 0, 0, .65)url(https://www.slnsoftwares.com/images/slider/software-development.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    /* background-image: rgba(0, 0, 0, 0.801); */
+}
+
+.service{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 112px;
+}
+
+.product{
+    width: 20%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 5px;
+    
+}
+
+.img-logo{
+    width: 40px;
+    height: 40px;
+    background: url(https://www.slnsoftwares.com/images/icons/featured-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+section{
+    margin-top: 10px;
+}
+.why{
+    display: flex;
+    width: 100%;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+
+}
+.tech{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    border-right: 2px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.google{
+    width: 135px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review img{
+
+    width: 131px;
+    height: 65px;
+
+}
+.topic{
+    height: 600px;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topic-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-title h2{
+   margin-top: 20px;
+   font-weight: 400;
+}
+.topic-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.topic-para-img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.topic-para-img div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic-img{
+    background: url(https://www.slnsoftwares.com/images/CustomSoftware.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
