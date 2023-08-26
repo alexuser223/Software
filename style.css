@@ -309,7 +309,7 @@ section{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin: 20px;
   
 
 }
@@ -387,10 +387,17 @@ li{
     margin: 5px;
 }
 
+.heading-mini{
+    display: none;
+  }
 
 @media only screen and (max-width: 600px) {
     body {
       /* font-size: 12px; */
+    }
+
+    *{
+        text-align: center;
     }
     .service{
         flex-direction: column;
@@ -435,6 +442,55 @@ li{
         height: auto;
     }
   .pro{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+  }
+  .footer{
+    height: auto;
     flex-direction: column;
   }
+
+  .footer section{
+    margin-top: 20px;
+    /* text-align: start; */
   }
+
+  .copyright{
+    height: auto;
+    flex-direction: column;
+  }
+
+  .copy-rightt{
+    justify-content: center;
+  }
+
+  .tech-cox-grid{
+    justify-content: center;
+  }
+  .upperheading{
+    display: none;
+  }
+  .lowerheading{
+    display: none;
+  }
+  .heading{
+    height: 50px;
+  }
+
+  .heading-mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .heading{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  }
+
+  
