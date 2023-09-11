@@ -89,6 +89,21 @@ width:100vw;
     /* background-image: rgba(0, 0, 0, 0.801); */
 }
 
+
+.promo-area2{
+    height: 282px;
+    background:rgba(0, 0, 0, .65)url(static/computer-2982270_1280.jpg);
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    /* background-image: rgba(0, 0, 0, 0.801); */
+}
+
 .service{
     background-color: #f2f2f2;
     display: flex;
