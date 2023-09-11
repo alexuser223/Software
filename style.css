@@ -494,6 +494,8 @@ li{
   .heading{
     height: 50px;
     background-color: black;
+    position: fixed;
+    top:0;
   }
 
   .heading-mini{

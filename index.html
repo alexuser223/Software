@@ -7,6 +7,38 @@
     <title>Software Development</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .nav{
+            height:100vh;
+            width: 100%;
+            background-color: #000000a7;
+            position: fixed;
+            top:50px;
+            display: flex;
+        }
+        .nav-menu{
+            height: 100%;
+            width: 80%;
+            background-color: #000000;
+            color: white;
+             row-gap: 20px;
+             display: flex;
+             flex-direction:column;
+             align-items:stretch;
+             justify-content: center;
+        }
+
+        .nav-menu li{
+            font-size: 25px
+        }
+        .nav-out{
+            width: 20%;
+            height: 100%;
+        }
+        .hide{
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,7 +53,7 @@
 
         <div class="heading-mini" style="padding: 5px;">
             <div class="logo" style="color: #ffffff; font-size:medium;">Software Service Hub</div>
-            <div class="menu"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></div>
+            <div class="menu"><svg  id="menu-sml" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></div>
         </div>
         <div class="upperheading " style="background-color: black;">
             <div class="left-container ">
@@ -425,6 +457,35 @@
     </div>
 </section>
 
+<div class="nav" id="nav-small">
+<div class="nav-menu">
+    <div style="height: 80%; display: flex; align-items: start ; flex-direction: column; row-gap: 20px; margin-left: 20%;">
+
+        <li onclick="window.location.href='index.html'">Home</li>
+        <li onclick="window.location.href='aboutus.html'">About Us</li>
+        <li onclick="window.location.href='contact.html'">Contact Us</li>
+        <li onclick="window.location.href='services.html'">Services</li>
+        <li >blog</li>
+    </div>
+</div>
+<div class="nav-out" id="nav-out">
+
+</div>
+</div>
+
+<script>
+    document.getElementById("nav-out").addEventListener("click", ()=>{
+        document.getElementById('nav-small').classList.add('hide');
+        
+    });
+    document.getElementById("menu-sml").addEventListener("click", ()=>{
+        document.getElementById('nav-small').classList.remove('hide');
+        
+    });
+    
+
+    
+</script>
 </body>
 
 </html>
