@@ -515,3 +515,37 @@ li{
   }
 
   
+
+
+  /* this is for nav  */
+
+  .nav{
+    height:100vh;
+    width: 100%;
+    background-color: #000000a7;
+    position: fixed;
+    top:50px;
+    display: flex;
+}
+.nav-menu{
+    height: 100%;
+    width: 80%;
+    background-color: #000000;
+    color: white;
+     row-gap: 20px;
+     display: flex;
+     flex-direction:column;
+     align-items:stretch;
+     justify-content: center;
+}
+
+.nav-menu li{
+    font-size: 25px
+}
+.nav-out{
+    width: 20%;
+    height: 100%;
+}
+.hide{
+    display: none;
+}
