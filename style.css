@@ -512,6 +512,23 @@ li{
     width: 100%;
   }
 
+  .call-float{
+    width:45px;
+    height: 45px;
+    background: #000000;
+    border-radius: 50%;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:1px solid white;
+    color: white;
+
+}
+
   }
 
   
