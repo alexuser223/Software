@@ -529,6 +529,13 @@ li{
 
 }
 
+.blog{
+    display: block;
+}
+.blog p{
+    padding: 10px;
+}
+
   }
 
   
@@ -566,3 +573,4 @@ li{
 .hide{
     display: none;
 }
+

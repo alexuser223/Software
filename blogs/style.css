@@ -1,0 +1,7 @@
+.blog{
+    display: flex;
+}
+
+.blog p{
+    padding: 50px;
+}
